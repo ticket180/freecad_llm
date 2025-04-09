@@ -159,8 +159,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
                 "role": "user",
                 "content":  f"{user_say}\n*这是历史消息*:{history_content}" 
             }
-       
-       
+        print("")
+        
        
         
 
