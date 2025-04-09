@@ -79,7 +79,7 @@ async def tool_call(user_say):
                         "type": "string",
                         "description": """
 *返回每行是纯freecad的函数代码的代码块,或者,返回单条纯freecad函数代码,不要有注释*
-
+*如果找不到想自创代码块记得用函数赋值或者函数调用,不要用if这种复杂命令*
 **************************单条纯函数代码*********************************     
 
 函数代码:FreeCAD.newDocument()  
