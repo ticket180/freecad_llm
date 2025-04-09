@@ -1,0 +1,11 @@
+Module(
+    body=[
+        Expr(
+            value=Call(
+                func=Attribute(
+                    value=Name(id='doc', ctx=Load()),
+                    attr='recompute',
+                    ctx=Load()),
+                args=[],
+                keywords=[]))],
+    type_ignores=[])

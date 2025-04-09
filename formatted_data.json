@@ -1,0 +1,28 @@
+{
+    "id": "d2139f2e-996f-4b46-8ac9-0298eca53654",
+    "object": "chat.completion",
+    "created": 1744208052,
+    "model": "deepseek-chat",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "这段代码执行了以下操作：\n\n1. 激活了FreeCAD的SheetMetal工作台(SMWorkbench)\n2. 创建了一个名为\"new_Document\"的新文档\n3. 运行了SheetMetal模块的\"BaseShape\"命令(创建基础形状)\n4. 重新计算了文档\n5. 调整视图使所有对象可见\n\n执行后返回了一个包含文档对象的元组：`[('doc', 'Document')]`，表示成功创建了一个名为\"doc\"的文档对象。"
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 99,
+        "completion_tokens": 108,
+        "total_tokens": 207,
+        "prompt_tokens_details": {
+            "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 99
+    },
+    "system_fingerprint": "fp_3d5141a69a_prod0225"
+}
