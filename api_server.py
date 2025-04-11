@@ -1,5 +1,5 @@
 
-import pyautogui
+
 import os
 import base64
 import httpx
