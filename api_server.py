@@ -185,6 +185,8 @@ FreeCADGui.SendMsgToActiveView("ViewFit")
         assitant_response=data["choices"][0]["message"].get("content", "")
         print("assitant:"+assitant_response)
         history.append(assitant_response)
+'''
+
 def get_imageToBase64()->str:
     imagePath=os.path.join(os.path.expanduser('~'), '图片', 'screenshot.jpg')
 # 获取屏幕的宽度和高度
@@ -196,6 +198,7 @@ def get_imageToBase64()->str:
         base64_image = base64.b64encode(image_file.read()).decode("utf-8")
         return base64_image
 
+'''
 
 async def main():
 
